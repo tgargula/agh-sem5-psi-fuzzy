@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+
+<?import java.net.URL?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pl.edu.student.tgargula.fuzzify.FxController"
+            prefHeight="130.0" prefWidth="600.0">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+    <AnchorPane fx:id="anchorPane" />
+    <Button fx:id="addLeftBulletButton" onMouseClicked="#addLeftBullet">Shoot 💥</Button>
+    <Button fx:id="addRightBulletButton" onMouseClicked="#addRightBullet">Shoot 💥</Button>
+</AnchorPane>
